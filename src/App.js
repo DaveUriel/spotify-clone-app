@@ -23,7 +23,6 @@ function App() {
       });
 
       spotify.setAccessToken(_token);
-
       spotify.getMe().then((user) => {
         dispatch({
           type: 'SET_USER',
@@ -37,6 +36,13 @@ function App() {
           playlists: playlists,
         });
       });
+
+      spotify.getPlaylist('37i9dQZEVXcIK1kAu4Oqpp').then((response) =>
+        dispatch({
+          type: 'SET_DISCOVER_WEEKLY',
+          discover_weekly: response,
+        })
+      );
     }
   }, []);
 
