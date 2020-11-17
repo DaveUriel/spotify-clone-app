@@ -1,6 +1,7 @@
 import React from 'react';
 import './Body.css';
 import Header from './Header';
+import SongRow from './SongRow';
 import { useDataLayerValue } from './DataLayer';
 import PlayCircleFilledIcon from '@material-ui/icons/PlayCircleFilled';
 import FavoriteIcon from '@material-ui/icons/Favorite';
@@ -11,7 +12,6 @@ function Body({ spotify }) {
 
   return (
     <div className="body">
-      <h1>I am the body</h1>
       <Header spotify={spotify} />
 
       <div className="body__info">
@@ -28,6 +28,9 @@ function Body({ spotify }) {
           <FavoriteIcon fontSize="large" />
           <MoreHorizIcon />
         </div>
+        {discover_weekly?.tracks.items.map((item) => (
+          <SongRow track={item.track} />
+        ))}
       </div>
     </div>
   );
