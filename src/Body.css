@@ -31,7 +31,7 @@
 }
 
 .body__info > img {
-  height: 20vw;
+  height: 15vw;
   margin: 0 20px;
   box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
 }
@@ -58,4 +58,40 @@
 
 .body__songs {
   margin: 20px -30px;
+}
+
+@media (max-width: 550px) {
+  .body__infoText > h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  .body__infoText > p {
+    font-size: 10px;
+  }
+  .body__info > img {
+    height: 15vw;
+    align-items: flex-start;
+    margin: 0 10px;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+  }
+
+  .body__infoText > p {
+    display: none;
+  }
+}
+@media (max-width: 873px) {
+  .body__infoText > h2 {
+    font-size: 40px;
+    margin-bottom: 5px;
+  }
+  .body__infoText > p {
+    font-size: 12px;
+  }
+
+  .body__info > img {
+    align-items: flex-start;
+    min-width: 100px;
+    min-height: 100px;
+  }
 }

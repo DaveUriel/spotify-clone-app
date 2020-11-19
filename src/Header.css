@@ -28,3 +28,9 @@
 .header__right > h4 {
   margin-left: 10px;
 }
+
+@media (max-width: 550px) {
+  .header__right > h4 {
+    display: none;
+  }
+}

@@ -61,3 +61,9 @@
 .footer__right * .MuiSlider-root {
   color: green;
 }
+
+@media (max-width: 680px) {
+  .footer__right * .MuiSlider-root {
+    display: none;
+  }
+}
