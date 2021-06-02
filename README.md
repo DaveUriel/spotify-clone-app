@@ -3,9 +3,16 @@
 
 <h2 align="center"><a  href="https://spotify.daviduriel.com">Live Demo</a></h2>
 
+<p align="center">
+  You will need to log in using an actual spotify account in order to see the live demo.
+</p>
+
+
 ## Description
 
-This is a Spotify Clone that was created to mimic the style and feel of a Spotify web player. You can browse your playlists from spotify using a UI very similar to the web player.
+This is a Spotify Clone that was created to mimic the style and feel of a Spotify web player. You can browse your playlists from spotify using a UI very similar to the web player. 
+
+
 
 <p align="center"><img  src="./readme_assets/spotify-pic01.jpg" width="50%"></p>
 
