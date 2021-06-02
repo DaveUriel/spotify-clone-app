@@ -1,4 +1,4 @@
-<h1 align="center">Netflix Clone React App</h1>
+<h1 align="center">Spotify Clone React App</h1>
 <img src="./readme_assets/spotify-header.png" width="100%">
 
 <h2 align="center"><a  href="https://spotify.daviduriel.com">Live Demo</a></h2>
